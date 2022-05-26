@@ -6,6 +6,10 @@
   margin:auto;
   margin-top:4rem;
   border-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
 }
 .child-container{
   height:33rem;
@@ -59,3 +63,19 @@
   border: 2px solid rgb(143, 219, 214)
 }
 
+#send:hover,#logout:hover ,#signin:hover{
+  background-color:rgb(52, 51, 51);
+  color:white;
+}
+
+
+#logout{
+  align-self: flex-end;
+  margin:10px 5px 0px 0px;
+}
+
+#signin{
+  padding:8px 14px 8px 14px;
+  border-radius: 4px;
+  
+}
