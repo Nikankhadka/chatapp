@@ -33,7 +33,7 @@
   height:450px;
   width:404px;
   border-radius:10px;
- 
+  overflow-y: scroll;
 }
 .input{
   margin-top:5px;
@@ -78,4 +78,46 @@
   padding:8px 14px 8px 14px;
   border-radius: 4px;
   
+}
+
+
+
+
+/* main message content csss */
+p {
+  max-width: 500px;
+  margin-bottom: 12px;
+  line-height: 18px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+}
+
+
+.sent {
+  flex-direction: row-reverse;
+}
+
+.sent p {
+  color: white;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+.received p {
+  background: #e5e5ea;
+  color: black;
+}
+
+img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 2px 5px;
 }
